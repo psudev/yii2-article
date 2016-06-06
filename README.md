@@ -18,7 +18,7 @@ composer require thaisouthdev/article "dev-master"
 return [
     'modules' => [
         'admin' => [
-            'class' => 'mdm\admin\Module',
+            'class' => 'thaisouthdev\article\Module',
             ...
         ]
         ...
