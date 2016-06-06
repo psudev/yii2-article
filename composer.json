@@ -1,0 +1,31 @@
+{
+    "name": "thaisouthdev/yii2-article",
+    "description": "Article System",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","article"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Ahamad Jehdu",
+            "email": "ahamad.jedu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "yiisoft/yii2": "*",
+        "sunhater/kcfinder": "*",        
+        "2amigos/yii2-ckeditor-widget": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "thaisouthdev\\article\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
